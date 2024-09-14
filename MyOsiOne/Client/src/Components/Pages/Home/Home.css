@@ -1,0 +1,108 @@
+.home_content{
+    display: flex;
+    height: 84.2vh;
+    width: 100vw;
+}
+
+.home_button{
+    border: none;
+    background-color: white;
+    padding: 4px 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(63, 63, 245);
+    text-decoration:none;
+    font-size: 14px;
+    border: 1px solid rgb(63, 63, 245);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+
+
+}
+.Nav{
+    text-decoration: none;
+    color: rgb(63, 63, 245);
+}
+.Nav:hover{
+    color: white;
+    background-color:rgb(63, 63, 245); ;
+}
+
+.myCards{
+    width: 400px;
+    height: 250px;
+    /* display: flex;
+    justify-content: space-between; */
+    background-color:white;
+    margin: 15px;
+    padding: 15px;
+
+}
+.cards_text{
+    height: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+
+.cards_text p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.cards_text button:hover{
+    background-color: rgb(63, 63, 245);
+    color: white;
+    font-weight: bold;
+}
+.cards hr{
+
+        width: 100%; /* Make the line 80% of the container's width */
+        height: 1px;
+        background-color: #333;
+        border: 1px solid tomato;
+        margin: 20px 0;
+    
+}
+.cards{
+    width:400px;
+    height: 250px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+.cards_text{
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards_text button:hover{
+    background-color: rgb(63, 63, 245);
+    color: white;
+}
+.cards hr{
+
+    width: 100%; /* Make the line 80% of the container's width */
+    height: 1px;
+    background-color: #333;
+    border: 1px solid tomato;
+
+}
+.Mid_cards_text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 10px;
+}
+.calendar_Icon{
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}

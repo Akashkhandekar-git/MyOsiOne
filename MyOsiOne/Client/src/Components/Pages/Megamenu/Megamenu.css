@@ -1,0 +1,43 @@
+.megamenu {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: rgb(45, 45, 64);
+}
+.cross_icon {
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.megamenu_list {
+  margin: 20px 20px 0px 80px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.megamenu_list_menu{
+    margin: 15px;
+    color: white;
+    
+
+}
+.megamenu_list hr {
+  border: 2px solid white;
+  height: 2px;
+}
+
+.megamenu_list h6 {
+  cursor: pointer;
+}
+
+/* .megamenu_list_down {
+  display: flex;
+  margin-top: 20px;
+} */
+.icon {
+  position: relative;
+  height: 25px;
+  width: 50px;
+}

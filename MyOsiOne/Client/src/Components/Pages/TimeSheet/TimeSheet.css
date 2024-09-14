@@ -1,0 +1,276 @@
+.main_Content{
+    display: flex;
+}
+.content{
+    height: 80%;
+    width: 90%;
+
+}
+.content p{
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.date{
+    padding: 15px;
+    background-color: rgb(65, 65, 246);
+    color: white;
+    font-size: 13px;
+
+}
+.title{
+    margin: 15px 0px 10px -60px;
+    font-size: 13px;
+}
+.btn{
+    margin-right: 40px;
+    padding: 8px 30px;
+    font-weight:700;
+    font-size: 13px;
+}
+.date_btn{
+
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.date{
+    height: 100%;
+}
+.New_Timesheet_btn{
+    margin-right: 30px;
+    padding: 4px 20px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    color: rgb(65, 65, 246);
+    font-weight: 500;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.New_Timesheet_btn:hover{
+    background-color: rgb(65, 65, 246);
+    color: white;
+    font-weight: 600;
+}
+
+.Project_Detail{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+.Project_Detail h6{
+    font-size: 13px;
+}
+.LastTitle{
+    margin-right: 30px;
+}
+.FirstTitle{
+    padding-right: 150px;
+    margin-left: 0px;
+}
+
+.TimeSheet_input button{
+    background-color: aliceblue;
+    padding: 5px;
+    font-size: 13px;
+    width: 200px;
+    /* border: 1px solid rgb(65, 65, 246); */
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
+}
+.TimeSheet_input ul{
+    width: 350px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 1px 0px 0px 0px;
+}
+
+.TimeSheet_input ul li{
+    list-style-type: none;
+    cursor: pointer;
+    width: 320px;
+    padding: 4px;
+}
+
+.TimeSheet_input ul li:hover{
+    background-color: rgb(65, 65, 246);
+    color:white;
+   
+}
+
+.Project_Inputs{
+    display: flex;
+    /* position: absolute; */
+
+    
+}
+.Project_Inputs button{
+    background-color: aliceblue;
+    padding: 5px;
+    font-size: 13px;
+    margin: 0px 10px 0px 0px;
+    /* border: 1px solid rgb(65, 65, 246); */
+    border: none;
+    /* border: 1px solid rgb(235, 230, 230); */
+    border-radius: 5px;
+
+}
+
+.TimeSheet_input_Task ul{
+list-style-type: none;
+padding: 10px 15px;
+border-radius: 5px;
+margin: 1px 0px 0px 0px;
+}
+/* .TimeSheet_input_Task{
+    position: absolute;
+} */
+
+.TimeSheet_input_Task ul li{
+    cursor: pointer;
+    padding: 4px;
+}
+
+.TimeSheet_input_Task ul li:hover{
+    background-color: rgb(65, 65, 246);
+    color:white;
+}
+
+.TimeSheet_input_Task button{
+    padding: 5px 22px;
+    font-size: 13px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.TimeSheet_input_Shift ul{
+    list-style-type: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 1px 0px 0px 0px;
+
+
+}
+.TimeSheet_input_Shift ul li:hover{
+    background-color: rgb(65, 65, 246);
+    color:white;
+
+}
+.TimeSheet_input_Shift button{
+    padding: 5px 22px;
+    font-size: 13px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.TimeSheet_input_BillType ul{
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 1px 0px 0px 0px;
+}
+
+.TimeSheet_input_BillType ul li:hover{
+    background-color: rgb(65, 65, 246);
+    color:white;
+}
+.TimeSheet_input_BillType button{
+    padding: 5px 20px;
+    font-size: 13px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Input_Dates_Div{
+    display: flex;
+    margin: -5px 0px 0px 15px;
+}
+.input_Dates{
+    width: 40px;
+    margin: 0px 0px 0px 10px;
+    position: relative;
+    border-radius: 4px;
+    padding: 2px 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    /* border: 0.1px solid rgb(65, 65, 246);  */
+    border: none;
+
+}
+
+.Comment_Icon{
+    height: 40px;
+    width: 20px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.input_Date_with_Icon{
+    display: flex;
+    align-items: center;
+}
+
+.totalHours{
+    margin-left: 30px;
+    display: flex;
+    border: 1px solid  rgb(65, 65, 246);
+    padding: 2px 16px;
+    border-radius: 4px;
+    align-items: center;
+    
+    justify-content: center;
+}
+.totalHours h6 {
+    font-size: 13px;
+    margin-top: 6px;
+
+}
+
+.Total{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 30px 0px ;
+    background-color: rgb(65, 65, 246);
+    color: white;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.Total_First_Element{
+    margin-left: 100px ;
+    width: 1000px;
+}
+
+.Total_Rest_Elements{
+    margin: 0px 4px 0px 65px;
+    /* width: 1px; */
+}
+
+.Action_Button{
+    display: flex;
+    justify-content: end;
+
+}
+.Action_Button button{
+    margin-right: 30px;
+    padding: 5px 20px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: rgb(65, 65, 246);
+    font-weight: 500;
+    font-size: 13px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.Action_Button button:hover{
+    background-color: rgb(65, 65, 246); 
+    color: white;
+   
+}
+.Project_drop_Down{
+    position: absolute;
+    font-size: 13px;
+    background-color: aliceblue;
+    z-index: 1;
+}

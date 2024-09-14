@@ -1,0 +1,19 @@
+/* .card{
+    position: relative; */
+/* } */
+.logo{
+    /* position: absolute;
+    right: 120px;
+    top: 30px; */
+    height: 50px;
+    width: 215px;
+}
+
+@media (max-width: 960px) {
+    .logo{
+        height: 40px;
+        width: 150px;
+    }
+    
+    
+}

@@ -1,0 +1,98 @@
+.menu_list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 40px;
+}
+.menu_list li{
+    font-size: 13px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.navbar{
+    height: 55px;
+    display: flex;
+    background-color: rgb(251, 251, 249);
+    align-items: center;
+    position: relative;
+}
+.hemburger{
+    width: 35px;
+    height: 28px;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.userIcon{
+    width: 25px;
+    height: 30px;
+    position: relative;
+}
+.logo{
+    height: 40px;
+    position: absolute;
+    left: 60px;
+    cursor: pointer;
+}
+
+/* --------------------- */
+
+ .hidden_component {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    position: relative;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  
+  /* When the component is visible, it slides in */
+   .slide-in {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  /* When the component is hidden, it slides out */
+  .slide-out {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  .Arrow_Down{
+    margin-left: -20px;
+    position: absolute;
+    bottom: 28px;
+  }
+  .user_div{
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+    background-color: white;
+    
+  }
+  .user_Drop_Down{
+    list-style-type: none;
+    font-size: 12px;
+    width: 140px;
+    padding: 15px 2px 2px 15px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top:1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: 1;
+
+  }
+  .user_Drop_Down li{
+    margin-bottom: 10px ;
+    padding: 1px;
+  }
+  .user_Drop_Down li:hover{
+    background-color:  rgb(65, 65, 246); 
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+
+  }
